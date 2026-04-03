@@ -2,6 +2,21 @@
 
 AI-powered system that converts complex medical reports into simple, understandable health insights.
 
+## Problem Statement
+
+Medical reports are often complex and difficult for non-medical individuals to understand. Patients struggle to interpret values, assess health risks, and take appropriate actions without professional guidance.
+
+## Solution
+
+HealthLens AI is an intelligent system that transforms medical reports into simple, actionable insights.
+
+It allows users to upload reports (PDF/text), automatically extracts key health parameters, analyzes them using AI, and presents:
+- Easy-to-understand visualizations
+- Risk level (Low / Moderate / High)
+- AI-generated health score
+- Personalized recommendations in plain language
+
+This bridges the gap between medical data and user understanding, enabling smarter and faster health decisions.
 
 ## Features
 
