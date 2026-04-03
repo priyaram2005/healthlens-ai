@@ -1,8 +1,7 @@
-# 🧠 HealthLens AI
+# HealthLens AI
 
 AI-powered system that converts complex medical reports into simple, understandable health insights.
 
----
 
 ## Features
 
@@ -41,6 +40,28 @@ Codecure AI 2026/
 ├── requirements.txt
 ├── README.md
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run backend
+cd backend
+python app.py
+
+### 3. Run frontend
+cd frontend
+streamlit run dashboard.py
+
+## How it Works
+
+1. User uploads report
+2. Text is extracted from PDF
+3. Parameters are detected
+4. ML model predicts risk
+5. Dashboard displays insights
+
+
+## ⚠️ Note
+
+This is an AI prototype and not a medical diagnosis tool.
